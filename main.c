@@ -1,6 +1,5 @@
 #include <stdint.h>
 #include <stdio.h>
-#include <math.h>
 
 #define UP 1
 #define DOWN 2
@@ -9,11 +8,6 @@
 
 //#define RIGHT 4这些是定义常量
 int main() {
-    int32_t q=(10+8-21)*9/3;
-    printf("%d\n",q);
-
-    printf("%f\n",sin(M_PI));
-
     printf("if语句\n");
     int32_t a = 8;
     int32_t b = 10;
